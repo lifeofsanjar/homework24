@@ -1,0 +1,206 @@
+.page2
+{
+    padding: 269px 20px 69px 20px ;
+    background: url(../assets/images/BG.jpg);
+    background-size: contain;
+    background-position: center;
+    .tocha
+    {
+        display: flex;
+        .tocha_desc
+        {
+            .title
+            {
+                font-family: Gilroy;
+                font-size: 48px;
+                font-weight: 800;
+                line-height: 32px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 68px;
+            }
+            .cardbox
+            {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                gap: 48px;
+                .box
+                {
+                    position: relative;
+                    padding: 12px 0px;
+                    padding-left: 94px;
+                    display: flex;
+                    flex-direction: column;
+                    align-content : space-between;
+                    img
+                    {
+                        position: absolute;
+                        top: 12px;
+                        left: 0;
+                    }
+                    h1
+                    {
+                        font-family: Gilroy;
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 32px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+                    p
+                    {
+                        max-width: 428px;
+                        font-family: Gilroy;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+       
+    }
+}
+@media(max-width:967px)
+{
+    .page2
+    {
+        padding: 100px 20px 69px 20px ;
+    }
+    .tocha_desc
+        {
+            
+            .cardbox
+            {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                .box
+                {
+                    position: relative;
+                    padding: 12px 0px;
+                    padding-left: 94px;
+                    display: flex;
+                    flex-direction: column;
+                    align-content : space-between;
+                    img
+                    {
+                        position: absolute;
+                        width: 50px;
+                        top: 12px;
+                        left: 0;
+                    }
+                    h1
+                    {
+                        font-family: Gilroy;
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 32px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+                    p
+                    {
+                        max-width: 428px;
+                        font-family: Gilroy;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .tocha_img
+        {
+            .img
+            {
+                width: 350px;
+            }
+        }
+}
+@media(max-width:768px)
+{
+    .page2
+{
+    background: url(../assets/images/BG.jpg);
+    background-size: contain;
+    background-position: center;
+    .tocha
+    {
+        display: flex;
+        .tocha_desc
+        {
+            .title
+            {
+                font-family: Gilroy;
+                font-size: 32px;
+                font-weight: 800;
+                line-height: 32px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 40px;
+            }
+            .cardbox
+            {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                .box
+                {
+                    position: relative;
+                    padding: 12px 0px;
+                    padding-left: 60px;
+                    display: flex;
+                    flex-direction: column;
+                    align-content : space-between;
+                    img
+                    {
+                        position: absolute;
+                        width: 42;
+                        top: 12px;
+                        left: 0;
+                    }
+                    h1
+                    {
+                        font-family: Gilroy;
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 32px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+                    p
+                    {
+                        max-width: 428px;
+                        font-family: Gilroy;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .tocha_img
+        {
+            display: flex;
+            align-items: center;
+            .img
+            {
+                width: 300px;
+                height: 100%;
+            }
+        }
+       
+    }
+}
+}

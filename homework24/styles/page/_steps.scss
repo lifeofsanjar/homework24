@@ -1,0 +1,275 @@
+.steps
+{
+    position: relative;
+    padding: 0px 0px 140px 0px;
+    .background2
+    {
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+    }
+    .lines
+    {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: 90px;
+        left: 130px;
+    }
+    .title
+    {
+        width: 100%;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 46px;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: 0em;
+        margin-bottom: 40px;
+    }
+    .container
+    {
+        .cardbox
+        {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            .box2
+            {
+                padding: 86px 0px 0px 0px;
+            }
+            .box_head
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+                .number
+                {
+                    width: 72px;
+                    height: 72px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    background-color: #F1E4FF;
+                    font-family: Gilroy;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    color: #685ED6;
+                }
+                h2
+                {
+                    font-family: Gilroy;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+                }
+                p
+                {
+                    font-family: Gilroy;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    width: 265px;
+                    margin: 5px 0px 40px 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px)
+{
+    .steps
+{
+    position: relative;
+    padding: 0px 0px 140px 0px;
+    .background2
+    {
+        display: none;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+    }
+    .lines
+    {
+        display: none;
+        position: absolute;
+        z-index: -1;
+        top: 90px;
+        left: 130px;
+    }
+    .title
+    {
+        font-family: Gilroy;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .container
+    {
+        .cardbox
+        {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            .box2
+            {
+                padding: 0px 0px 0px 0px;
+            }
+            .box_head
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+                .number
+                {
+                    width: 72px;
+                    height: 72px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    background-color: #F1E4FF;
+                    font-family: Gilroy;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    color: #685ED6;
+                }
+                h2
+                {
+                    font-family: Gilroy;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+                }
+                p
+                {
+                    font-family: Gilroy;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    width: 265px;
+                    margin: 5px 0px 40px 0px;
+                }
+            }
+            .box_body
+            {
+                width: 211px;
+            }
+        }
+    }
+}
+}
+@media (max-width:375px)
+{
+    .steps
+{
+    position: relative;
+    padding: 0px 0px 140px 0px;
+    .background2
+    {
+        display: none;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+    }
+    .lines
+    {
+        display: none;
+        position: absolute;
+        z-index: -1;
+        top: 90px;
+        left: 130px;
+    }
+    .title
+    {
+        width: 331px;
+        font-family: Gilroy;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .container
+    {
+        .cardbox
+        {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            .box2
+            {
+                padding: 0px 0px 0px 0px;
+            }
+            .box_head
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+                .number
+                {
+                    width: 72px;
+                    height: 72px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    background-color: #F1E4FF;
+                    font-family: Gilroy;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    color: #685ED6;
+                }
+                h2
+                {
+                    font-family: Gilroy;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+                }
+                p
+                {
+                    font-family: Gilroy;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    width: 265px;
+                    margin: 5px 0px 40px 0px;
+                }
+            }
+            .box_body
+            {
+                img
+                {
+                    width: 211px;
+                }
+            }
+        }
+    }
+}
+}

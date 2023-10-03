@@ -1,0 +1,131 @@
+// .scroll__row {
+//     display: grid;
+//     grid-template-columns: repeat(3, 350px);
+//     overflow-x: scroll;
+//     gap: 10px;
+//   }
+  
+
+//   .dots {
+//     display: none;
+//     margin-top: 10px;
+//     justify-content: center;
+//     gap: 10px;
+//   }
+//   @media (max-width: 992px) {
+//     .dots {
+//       display: flex;
+//     }
+//   }
+  
+//   .dot {
+//     border-radius: 50%;
+//     width: 20px;
+//     height: 20px;
+//     background-color: black;
+//   }
+.plans
+{
+    .container
+    {
+        padding: 100px 0px;
+    }
+    .title
+        {
+            width: 100%;
+        h1
+            {
+                font-family: Gilroy;
+                font-size: 46px;
+                font-weight: 800;
+                line-height: 64px;
+                letter-spacing: 0em;
+                text-align: center;
+            }
+        h2
+            {
+                font-family: Gilroy;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: 0em;
+                text-align: center;
+                margin: 16px 0px 40px 0px;
+            }
+        }
+    .scroll_row
+        {
+            display: grid;
+            grid-template-columns: repeat(3, 350px);
+            overflow-x: scroll;
+            gap: 30px;
+
+            .plan
+            {
+                text-align: center;
+                box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+                h2
+                {
+                    background-color: #685ED60D;
+                    font-family: Gilroy;
+                    font-size: 24px;
+                    font-weight: 800;
+                    line-height: 48px;
+                    letter-spacing: 0em;
+                    color: #685ED6;
+                }
+                h1
+                {
+                    font-family: Gilroy;
+                    font-size: 28px;
+                    font-weight: 700;
+                    line-height: 40px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    margin: 40px 0px 32px 0px;
+                }
+                p
+                {
+                    font-family: Gilroy;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                }
+                button
+                {
+                    padding: 12px 66px;
+                    margin: 46px 0px 50px 0px;
+                    border: 2px transparent solid;
+                    border-radius: 6px;
+                    background-color: $primary_color;
+                    color: #FFFFFF;
+                    font-family: Gilroy;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                }
+            }
+        }
+                    .dots {
+                display: none;
+                margin-top: 10px;
+                justify-content: center;
+                gap: 10px;
+            }
+            @media (max-width: 992px) {
+                .dots {
+                display: flex;
+                }
+            }
+            
+            .dot {
+                border-radius: 50%;
+                width: 20px;
+                height: 20px;
+                background-color: #685ED6;
+            }
+}

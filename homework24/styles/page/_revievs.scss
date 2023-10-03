@@ -1,0 +1,311 @@
+.revievs
+{
+    padding: 17px 0px 80px 0px;
+    .container
+    {
+        position: relative;
+        .logo_quote
+        {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+    .title
+    {
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 46px;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: 0em;
+        margin-bottom: 48px;
+    }
+    .scroll_row
+        {
+            display: grid;
+            grid-template-columns: repeat(2, 540px);
+            overflow-x: scroll;
+            gap: 30px;
+            .reviev_wrapper
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .reviev
+                {
+                    text-align: center;
+                    box-shadow: 0px 10px 20px 0px #29292A12;
+                    padding: 32px 0px 66px 0px;
+                    h2
+                    {
+                        font-family: Gilroy;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 28px;
+                        letter-spacing: 0em;
+                    }
+                    p
+                    {
+                        font-family: Gilroy;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                    }
+                }
+                .profile
+                {
+                    padding-left: 60px ;
+                    margin: 10px 0px 10px 0px;
+                    position: relative;
+                    .profile_picture
+                    {
+                        position: absolute;
+                        left: 0;
+                    }
+                    h1
+                    {
+                        font-family: Gilroy;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                    h2
+                    {
+                        font-family: Gilroy;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .dots {
+            display: flex;
+            margin-top: 10px;
+            justify-content: center;
+            gap: 10px;
+        }
+        .dot {
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            background-color: #685ED6;
+        }
+}
+@media (max-width:768px)
+{
+    .revievs
+{
+    padding: 12px 0px 80px 0px;
+    .container
+    {
+        position: relative;
+        .logo_quote
+        {
+            width: 111px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+    .title
+    {
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0em;
+        margin-bottom: 48px;
+    }
+    .scroll_row
+        {
+            display: grid;
+            grid-template-columns: repeat(2, 540px);
+            overflow-x: scroll;
+            gap: 30px;
+            .reviev_wrapper
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .reviev
+                {
+                    text-align: center;
+                    box-shadow: 0px 10px 20px 0px #29292A12;
+                    padding: 32px 0px 66px 0px;
+                    h2
+                    {
+                        font-family: Gilroy;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 28px;
+                        letter-spacing: 0em;
+                    }
+                    p
+                    {
+                        font-family: Gilroy;
+                        font-size: 10px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                    }
+                }
+                .profile
+                {
+                    padding-left: 60px ;
+                    margin: 10px 0px 10px 0px;
+                    position: relative;
+                    .profile_picture
+                    {
+                        position: absolute;
+                        left: 0;
+                    }
+                    h1
+                    {
+                        font-family: Gilroy;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                    h2
+                    {
+                        font-family: Gilroy;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .dots {
+            display: flex;
+            margin-top: 10px;
+            justify-content: center;
+            gap: 10px;
+        }
+        .dot {
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            background-color: #685ED6;
+        }
+}
+}
+@media (max-width:375px)
+{
+    .revievs
+{
+    padding: 60px 0px 80px 0px;
+    .container
+    {
+        position: relative;
+        .logo_quote
+        {
+            width: 54px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+    .title
+    {
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0em;
+        margin-bottom: 48px;
+    }
+    .scroll_row
+        {
+            display: grid;
+            grid-template-columns: repeat(2, 540px);
+            overflow-x: scroll;
+            gap: 30px;
+            .reviev_wrapper
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .reviev
+                {
+                    text-align: center;
+                    box-shadow: 0px 10px 20px 0px #29292A12;
+                    padding: 32px 0px 66px 0px;
+                    h2
+                    {
+                        font-family: Gilroy;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 28px;
+                        letter-spacing: 0em;
+                    }
+                    p
+                    {
+                        font-family: Gilroy;
+                        font-size: 10px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                    }
+                }
+                .profile
+                {
+                    padding-left: 60px ;
+                    margin: 10px 0px 10px 0px;
+                    position: relative;
+                    .profile_picture
+                    {
+                        position: absolute;
+                        left: 0;
+                    }
+                    h1
+                    {
+                        font-family: Gilroy;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                    h2
+                    {
+                        font-family: Gilroy;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .dots {
+            display: flex;
+            margin-top: 10px;
+            justify-content: center;
+            gap: 10px;
+        }
+        .dot {
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            background-color: #685ED6;
+        }
+}
+}
